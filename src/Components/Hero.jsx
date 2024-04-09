@@ -26,18 +26,18 @@ function Hero() {
           <h2 className="text-4xl text-red-600 text-center">
             SOFTWARE DEVELOPER
           </h2>
-        </div>
-        <div className="btn w-full flex  gap-5 flex-wrap justify-center mb-10">
-          <a href="mailto:vikas79725@gmail.com">
-            <button className="w-32 h-10 border-2 rounded-lg border-white hover:bg-white transition-all duration-500 hover:text-black">
-              MESSAGE
-            </button>
-          </a>
-          <a href={resume} target="_blank">
-            <button className="w-32 h-10 border-2 rounded-lg transition-all duration-500 border-white hover:bg-white hover:text-black">
-              GET CV
-            </button>
-          </a>
+          <div className="btn w-full flex py-10  gap-5 flex-wrap justify-center">
+            <a href="mailto:vikas79725@gmail.com">
+              <button className="w-32 h-10 border-2 rounded-lg border-white hover:bg-white transition-all duration-500 hover:text-black">
+                MESSAGE
+              </button>
+            </a>
+            <a href={resume} target="_blank">
+              <button className="w-32 h-10 border-2 rounded-lg transition-all duration-500 border-white hover:bg-white hover:text-black">
+                GET CV
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
